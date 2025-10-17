@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #f9c0d4;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #444;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: #d52a66;
+  margin: 0;
+}
+
+.header h1 span {
+  font-weight: 700;
+}
+
+.header p {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #d52a66;
+  margin: 8px 0 0;
+}
+
+.ribbon {
+  width: 300px;
+  display: block;
+  margin: 10px auto 50px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #d52a66;
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+  background-color: #d52a66;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.content p, .content ul {
+  margin: 10px 0;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.content ul li {
+  margin-bottom: 8px;
+}
+
+.flower {
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
